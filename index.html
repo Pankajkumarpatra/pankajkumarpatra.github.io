@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Patra</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projects-container h2 {
+    margin-bottom: 0;
+  }
+  
+  .project {
+    /* display: flex; */
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+  
+  .project img {
+    width: 1%;
+    height: 10%;
+    object-fit: cover;
+  }
+  
+  .description {
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .description h3 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .description h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* @media screen and (min-width: 600px) {
+    .project {
+      flex-direction: row;
+    }
+  
+    .project img {
+      width: 50%;
+    }
+  
+    .description {
+      justify-content: flex-start;
+      width: 50%;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    .description h3,
+    .description h4 {
+      text-align: left;
+      margin-top: 0;
+    }
+  } */
+  
+    </style>
+    
+</head>
+<body>
+    <section class="sec">
+        <img src="assets/p9.jpg" alt="" id="bg">
+        <h2>Welcome to my portfolio</h2>
+        <p>Hi there, It's my delight to share with you all my experiences from being a Tech enthusiast
+          till pursuing a career in the domain of Database. I will also share articles on technologies which are 
+          a part of my allied field of work like, Big Data, Hadoop, Data Warehouse, Data Lake, Cloud Computing, 
+          Automation, Data Analysis.</p>
+        <img src="assets/clouds_1.png" alt="" id="cloud1">
+        <img src="assets/clouds_2.png" alt="" id="cloud2">
+    </section>
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class = "profile">
+              <img src="assets/Pankaj.jpg" alt="" ><br>
+              <h5>Pankaj Patra</h5>
+              <p>Working as an Associate Engineer, I have found my skills on Big data platform and production scale implementation of Data Warehouses.
+                Also developing mobile, web application for implementing ideas or solving problems</p>
+              <p>Feel free to reach me at<br><strong>pankaj@pankajpatra.in</strong></p>
+              <!-- <strong>Connect with me on</strong> -->
+              <ul style="list-style-type:none;">
+                <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><span class="label">Odisha, India</span></li>
+                <li><i class="fa fa-fw fa-envelope-square" ></i><a href="mailto:pankaj@pankajpatra.in" rel="nofollow noopener noreferrer" target="_blank"><span class="label">Email</span></a></li>
+                <li><i class="fa fa-fw fa-github" aria-hidden="true"></i><a href="https://github.com/PankajkumarPatra/" rel="nofollow noopener noreferrer" target="_blank"><span class="label">Github</span></a></li>
+                <li><i class="fa fa-fw fa-linkedin" aria-hidden="true"  ></i><a href="https://www.linkedin.com/in/pankaj-kumar-patra-363754151/" rel="nofollow noopener noreferrer" target="_blank"><span class="label">LinkedIn</span></a></li>
+                <li><i class="fa fa-fw fa-instagram" ></i><a href="https://www.instagram.com/pankaj_kumar_patra/" rel="nofollow noopener noreferrer" target="_blank"><span class="label">Instagram</span></a></li>
+                <br>
+                <li><a href="./assets/man.png" target="_blank"><button class="resume flexslider">View Resume</button></a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-sm-9">
+            <section class="training flexslider">
+              <div class="projects-container">
+                <div class="project-trigger">
+                  <div class="project">
+                    <h2 class="project-image">Trainings Undertaken:</h2>
+                    <ul class="project-text">
+                      <li>Flutter using Dart – Hybrid Mobile App development</li>
+                      <li>R Summer Training by National Institute of Science and Technology
+                      <li>Oracle 11g Summer Training by Lakshya Institute of Technology</li>
+                      <li>Java SE Summer Training by Lakshya Institute of Technology</li>
+                      <li>Informatica BDM and Informatica Data Quality - Administrator</li>
+                      <li>Basics of Master Data Management</li>
+                      <li>Agile process for beginners</li>
+                      <li>Information Security Awareness</li>
+                      <li>Azure CDP - Knowledge Transition Program</li></li>
+                      <li>Leadership: Communicating with confidence</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="training flexslider">
+              <div class="projects-container">
+                <div class="project-trigger">
+                  <div class="project">
+                    <h2 class="project-image">Awards and Achievements:</h2>
+                    <ul class="project-text">
+                      <li>1st Runners-up in Computer Society of India InApp Hackathon, 2019</li>
+                      <li>Acted as an Ambassador for Climate Launchpad Program, K.I.I.T. Bhubaneswar</li>
+                      <li>Training students for using GitHub, Version Control System</li>
+                      <li>Attended guided workshop at I.I.T.Kharagpur – Application of IoT in Industries</li>
+                      <li>Presented a technical paper on “Big Data” in SANKALP 2019, a national level Techno-management Symposium</li>
+                      <li>Experience in Integrating Databases, developing applications and preparing test cases</li>
+                      <li>Worked as a Student Guide for N.I.S.T. Counselling Service (N.C.S.)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="training flexslider">
+                    <h2 style="padding-top: 3%">Project Summary:</h2>
+                    <ul>
+                      <li><b>Project Name:</b> Air Sense(A Real time Air Quality and Health Hazard Monitoring Application)
+                        <br><b>Award:</b> 1st Runners Up, Computer Society of India (C.S.I.) InApp India Hackathon, 2019
+                        <br><b>Outline:</b> Create an Application that visualizes Air Quality at nearby areas, collect Air composition using sensors, shows the client the best path between source and destination with suitable air quality for the compute.</li>
+                      <li><b>Project Name:</b> N.I.S.T. NCS Official Website
+                        <br><b>Role:</b> Web-Developer
+                        <br><b>Outline:</b> Creating an official website for N.I.S.T. counseling service with event Gallery, Team information, and an user-friendly portal for taking appointments with a counselor, providing feedback, and accessing Knowledge Base.</li>
+                      <li><b>Project Name:</b> Hospital Management System, T.C.S. Agile Case-Study
+                        <br><b>Role:</b> Front-End Developer
+                        <br><b>Outline:</b> Creating a web-based Hospital Management System with Patient management and Inventory management functionalities, providing a centralized solution for maintaining data which can be used further for analysis and business decisions.</li>
+                    </ul>
+            </section>
+            <section class="training flexslider">
+                    <h2 style="margin-bottom: 2%;padding-top: 2%;">Skills at a Glance:</h2>
+                    <div class="container-fluid project-text">
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <section class="training flexslider">
+                            <h6 class="project-image">Programming Language:</h6>
+                            <p class="skills">Python<br>Java<br>C</p>
+                          </section>
+                        </div>
+                        <div class="col-sm-4">
+                          <section class="training flexslider">
+                            <h6 class="project-image">Database:</h6>
+                            <p class="skills">MongoDB<br>PhpMyAdmin<br>SQL, SQLite, sqflite</p>
+                          </section>
+                        </div>
+                        <div class="col-sm-4">
+                          <section class="training flexslider">
+                            <h6 class="project-image">Web Development:</h6>
+                            <p class="skills">HTML, CSS, Bootstrap<br>PHP, JavaScript<br>Flutter</p>
+                          </section>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <section class="training flexslider">
+                            <h6 class="project-image">Tools:</h6>
+                            <p class="skills">MS Office<br>Anaconda<br>MS SQL Server</p>
+                          </section>
+                        </div>
+                        <div class="col-sm-4">
+                          <section class="training flexslider">
+                            <h6 class="project-image">Operating System:</h6>
+                            <p class="skills">Linux - RHEL<br>Windows<br>Ubuntu</p>
+                          </section>
+                        </div>
+                        <div class="col-sm-4">
+                          <section class="training flexslider">
+                            <h6 class="project-image">Data Analysis:</h6>
+                            <p class="skills">ETL<br>RapidMiner<br>PySpark Automation</p>
+                          </section>
+                        </div>
+                      </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="container-fluid career">
+        <h4>An insight to my career:</h4>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
+            <section class="projects flexslider">
+              <h5>System Analyst at Tata Consultancy Services Limited</h5>
+              <h6>Oct 2020 - Present</h6>
+              <ul>
+                <li>Data Analysis using Informatica Administrator</li>
+                <li>Automating manual processes and optimizing data delivery</li>
+                <li>Re-design infrastructure for better scalability and conduct Capacity Planning</li>
+                <li>Help teams meet Functional/non-Functional Business Requirements</li>
+                <li>Production Data load of all sources</li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
+            <section class="projects flexslider">
+              <h5>Freelancer for Hybrid App Development</h5>
+              <h6>July 2019 - July 2020</h6>
+              <ul>
+                <li>Static Hybrid app development</li>
+                <li>Flutter App development with local database(sqflite) integration</li>
+                <li>YouTube live streaming integration in Flutter</li>
+                <li>Real-time app notification feature implementation</li>
+                <li>Flutter app integration with Firebase</li>
+                <li>Developing website and execution file using Flutter</li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
+            <section class="projects flexslider">
+              <h5>Data Analyst Intern at Aptus Data Labs</h5>
+              <h6>May 2018 - July 2018</h6>
+              <ul>
+                <li>Text Mining - Transformation, Cleansing & term-document matrix extraction</li>
+                <li>Worked on Data Analysis projects - Collected data from various sources, performed ETL operations, analyse data using various models</li>
+                <li>Worked on POSTMAN API tool to build and Testing API</li>
+                <li>Prepared Python for intermediate level and learn the use of it in Big Data</li>
+                <li>Participated in Gartner meet - discussed on ways to evaluate Product Demand variability</li>
+                <li>Created scripts to automate routine tasks and establish backup protocols to ensure the reliability</li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>© 2021 Copyright: <a href="https://pankajpatra.in">PankajPatra.in</a></p>
+      </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script>
+        const projectTriggers = document.querySelectorAll(".project-trigger");
+
+        projectTriggers.forEach(addTimeline);
+
+        function addTimeline(project, index) {
+        const image = project.querySelector(".project-image");
+        const text = project.querySelector(".project-text");
+        
+        const timeline = gsap.timeline({
+            scrollTrigger: {
+            trigger: project,
+            start: "center bottom",
+            ease: "power2",
+            toggleActions: "play none none reverse"
+            }
+        })
+        .from(image, {
+            x: -200,
+            opacity: 0,
+            duration: 0.5
+        })
+        .from(text, {
+            x: 200,
+            opacity: 0,
+            duration: 0.5,
+            stagger: 0.2
+        }, "-=0.5");
+        }
+
+    </script>
+</body>
+</html>
