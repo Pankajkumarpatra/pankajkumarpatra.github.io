@@ -197,7 +197,7 @@ h4{
   }
   @media screen and (max-width: 600px) {
       .sec h2 {top: -5%;}
-      .sec p {top: 40%;font-size: .6em;font-weight: bold;}
+      .sec p {color: #fff; top: 40%; font-size: .6em; font-weight: bold;}
       .profile img {width: 30%;height: 20%;}
       .profile p {font-size: 65%;}
       .training {font: italic 10px/15px Georgia, sans-serif;}
